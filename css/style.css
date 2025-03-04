@@ -5,7 +5,7 @@ body {
     line-height: 1.6;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     color: #ffffff;
-    text-align: center;
+    text-align: left; 
     background-color: #312785;
     background-image:
         repeating-linear-gradient(150deg,
@@ -26,6 +26,7 @@ main {
     padding: 50px 20px;
     max-width: 800px;
     margin: 0 auto;
+    text-align: left; 
 }
 
 h1 {
@@ -34,11 +35,17 @@ h1 {
     letter-spacing: -1px;
     font-size: 2.5em;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    text-align: center; 
 }
 
-ul {
+h2, h3 {
+    text-align: left;
+}
+
+ul, ol {
     list-style-type: none;
     padding: 0;
+    margin-left: 20px;
 }
 
 li {
