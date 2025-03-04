@@ -11,7 +11,7 @@
 
 ## Содержание
 - [Алгебра](./pages/algebra.html)  
-- [Математический анализ](./pages/analysis.html)  
+- [Математический анализ](./pages/math_analysis.html)  
 - [Дискретная математика](./pages/discrete_math.html)  
 - [Геометрия](./pages/geometry.html)  
 - [Программирование](./pages/programming.html)  
