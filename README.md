@@ -19,4 +19,4 @@
 
 ## 🚀 Развертывание
 Этот сайт доступен на **GitHub Pages**:  
-🔗 [materials.github.io](https://Ganesha1967.github.io/materials)
+- [materials.github.io](https://Ganesha1967.github.io/materiales)
