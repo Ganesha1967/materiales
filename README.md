@@ -1,22 +1,22 @@
-# Учебные материалы
+# Study Materials
 
-Этот сайт содержит полезные материалы по математике, программированию, иностранным языкам и другим предметам.
+This website contains useful materials on mathematics, programming, foreign languages, and other subjects
 
-## Структура репозитория
-- **/pages/** – Отдельные страницы для тем  
-- **/css/** – Стили  
-- **/assets/** – Картинки  
-- **/js/** – Скрипты 
-- **index.html** – Главная страница  
+## Repository Structure
+- **/pages/** – Separate pages for topics  
+- **/css/** – Styles  
+- **/assets/** – Images  
+- **/js/** – Scripts  
+- **index.html** – Main page  
 
-## Содержание
-- [Алгебра](./pages/algebra.html)  
-- [Математический анализ](./pages/math_analysis.html)  
-- [Дискретная математика](./pages/discrete_math.html)  
-- [Геометрия](./pages/geometry.html)  
-- [Программирование](./pages/programming.html)  
-- [Иностранные языки](./pages/languages.html)  
+## Content
+- [Algebra](./pages/algebra.html)  
+- [Mathematical Analysis](./pages/math_analysis.html)  
+- [Discrete Mathematics](./pages/discrete_math.html)  
+- [Geometry](./pages/geometry.html)  
+- [Programming](./pages/programming.html)  
+- [Foreign Languages](./pages/languages.html)  
 
-## Развертывание
-Этот сайт доступен на **GitHub Pages**:  
+## Deployment
+This site is available on **GitHub Pages**:  
 - [materials.github.io](https://Ganesha1967.github.io/materials)
