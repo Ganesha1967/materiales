@@ -7,7 +7,7 @@ body {
     color: #ffffff;
     text-align: left;
     background-color: #312785;  
-    background-image: url('../images/background.jpg'); 
+    background-image: url('../assets/background.jpg'); 
     background-size: cover; 
     background-position: center center; 
     background-attachment: fixed; 
