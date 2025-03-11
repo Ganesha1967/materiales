@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Алгебра</title>
+    <link rel="stylesheet" href="../../css/style.css">
+    <script>
+        function goBack() {
+            if (document.referrer) {
+                window.history.back();
+            } else {
+                window.location.href = '../../index.html';
+            }
+        }
+    </script>
+</head>
+<body>
+
+<main class="container">
+    <aside class="sidebar">
+        <h2>Навигация</h2>
+        <ul>
+            <li><a href="plan.html">План</a></li>
+            <li><a href="books.html">Книги</a></li>
+            <li><a href="courses.html">Курсы</a></li>
+        </ul>
+    </aside>
+
+    <section class="content">
+        <h1>Алгебра</h1>
+        <p>Со временем тут будет все больше полезных материалов по алгебре.</p>
+
+        <h2>Что здесь уже есть:</h2>
+        <ul>
+            <li>План для изучения алгебры с нуля.</li>
+            <li>Подборка книг по алгебре.</li>
+            <li>Онлайн-курсы и лекции.</li>
+        </ul>
+
+        <p><a href="../../index.html">Вернуться на главную</a></p>
+        <button onclick="goBack()">Вернуться назад</button>
+    </section>
+</main>
+
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Книги по алгебре</title>
+    <link rel="stylesheet" href="../../css/style.css">
+    <script>
+        function goBack() {
+            if (document.referrer) {
+                window.history.back(); 
+            } else {
+                window.location.href = '../../index.html'; 
+            }
+        }
+    </script>
+</head>
+<body>
+
+<main class="container">
+    <aside class="sidebar">
+        <h2>Навигация</h2>
+        <ul>
+            <li><a href="plan.html">План</a></li>
+            <li><a href="books.html">Книги</a></li>
+            <li><a href="courses.html">Курсы</a></li>
+        </ul>
+    </aside>
+
+    <section class="content">
+        <h1>Книги по алгебре</h1>
+        <p>Вот несколько книг, которые помогут вам в изучении алгебры:</p>
+
+        <h2>Рекомендуемые книги:</h2>
+        <ul>
+            <li><strong>Кострикин А.И.:</strong> Введение в алгебру</li>
+            <li><strong>Фаддеев С.:</strong> Задачник по высшей алгебре</li>
+            <li><strong>Рудин М.:</strong> Введение в математический анализ (составная часть линейной алгебры)</li>
+        </ul>
+
+        <h2>Дополнительные материалы:</h2>
+        <ul>
+            <li><a href="https://mathprofi.ru/">Математика онлайн</a> — Сайт с задачами и лекциями по математике</li>
+        </ul>
+
+        <p><a href="../../index.html">Вернуться на главную</a></p>
+        <button onclick="goBack()">Вернуться назад</button>
+    </section>
+</main>
+
+</body>
+</html>
